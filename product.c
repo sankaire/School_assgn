@@ -11,8 +11,8 @@ int main(){
     printf("Enter second number: ");
     scanf("%d", &num2);
 
-    result = num1 + num2;
-    printf("Sum: %d %d = %f\n", num1,num2,result );
+    result = num1 * num2;
+    printf("Product: %d %d = %f\n", num1,num2,result );
 
     return 0;
 }
