@@ -6,6 +6,7 @@ try:
 except ValueError:
     print("Invalid input")
     sys.exit(1)
+
 try:
     result = x / y
 except ZeroDivisionError:
