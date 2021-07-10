@@ -15,8 +15,6 @@ int main()
 	result = num1 * num2;
 	
 	printf("%d", result);
-	
-	
 	return 0;
 	
-	
+};
