@@ -29,8 +29,8 @@ int main(){
 		printf("D+");
 	}else if(scr >= 40){
 		printf("D");
-	}else
-	{
+	}
+	else{
 		if(scr >= 35){
 			printf("D-");
 		}else if(scr >= 30)
