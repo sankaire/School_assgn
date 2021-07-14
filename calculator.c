@@ -6,7 +6,7 @@ int main()
 	int num1, num2;
 	int result;
 	
-	printf("Enter a number: ");
+	printf("Enter an umber: ");
 	scanf("%d", &num1 );
 	
 	printf("Enter the second number: ");
