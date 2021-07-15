@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>colors</title>
+</head>
+<body>
+    <h1>Hello!</h1>
+    <select>
+        <option value="black">black</option>
+        <option value="red">red</option>
+        <option value="blue">blue</option>
+        <option value="green">green</option>
+    </select>
+</body>
+<script>
+    //changes color to red
+    // document.getElementById('btn1').onclick = function(){
+    //     document.querySelector('h1').style.color = 'red'
+    // }
+    // //changes color to green
+    // document.getElementById("btn2").onclick = function(){
+    //     document.querySelector('h1').style.color = 'green'
+    // }
+    // //changes color to blue
+    // document.getElementById('btn3').onclick = function(){
+    //     document.querySelector('h1').style.color = 'blue'
+    // }
+
+    //another way of doing it
+    document.querySelector('select').onchange = function() {
+            document.querySelector('h1').style.color = this.value
+        
+        }
+
+</script>
+</html>
