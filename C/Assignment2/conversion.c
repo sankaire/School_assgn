@@ -9,7 +9,7 @@ int main(){
 
     convert_to_kilometres = distance_in_metres * 0.001;
 
-    printf("converted to: %f KM", convert_to_kilometres);
+    printf("converted to: %g KM", convert_to_kilometres);
 
     return 0;
 }
