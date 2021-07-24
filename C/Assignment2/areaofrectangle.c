@@ -20,5 +20,5 @@ int main(){
     float answer = area_of_a_rectangle(l, w);
     
     printf("%g is the area of the rectangle ", answer); 
-    //used a %g format to get rid of the zeroes
+    //used a %g format to get rid of the zeros
 }
