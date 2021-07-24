@@ -6,11 +6,11 @@ int main()
 	int second_num;
 	int third_num;
 	
-	printf("Enter Three Intergers: ");
+	printf("Enter the first Intergers: ");
 	scanf("%d", &first_num);
-	printf("Enter second Interger: ");
+	printf("Enter the second Interger: ");
 	scanf("%d", &second_num);
-	printf("Enter a third Interger: ");
+	printf("Enter the third Interger: ");
 	scanf("%d", &third_num);
 	
 	//logic goes here
