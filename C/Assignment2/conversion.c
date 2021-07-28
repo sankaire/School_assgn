@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int main(){
-    float distance_in_metres;
+    float distance_in_metres; 
     float convert_to_kilometres;
 
     printf("Enter distance in meters: ");
