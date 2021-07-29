@@ -1,9 +1,10 @@
 #include<stdio.h>
 int main(){
-    int i = 0;
-    while(i<=5){
+    int i = 20;
+    while(i >= 1){//
+        i--;
         printf("numbers: %d\n", i);
-        i++;
+      
     }
     return 0;
 }
