@@ -1,2 +1,2 @@
 # Schook_assgn
-School assignments
+This is a repository where i store all my school work.
